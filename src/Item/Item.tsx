@@ -8,7 +8,7 @@ import { Wrapper } from './Item.styles';
 
 type Props = {
     item: CartItemType;
-    handleAddToCart: (clickedItem: CartItemType) => null
+    handleAddToCart: (clickedItem: CartItemType) => void
 }
 
 const Item: React.FC<Props> = ({ item, handleAddToCart }) => (
